@@ -1,48 +1,74 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stephany Dianderas · Creadora de contenido UGC en Dubái</title><meta name="description" content="Stephany Dianderas, creadora de contenido UGC en Dubái. Videos verticales en español e inglés sobre belleza, viajes, bienestar y tecnología. Colaboraciones con marcas.">
-<meta property="og:title" content="Stephany Dianderas · Creadora de contenido UGC en Dubái"><meta property="og:description" content="Stephany Dianderas, creadora de contenido UGC en Dubái. Videos verticales en español e inglés sobre belleza, viajes, bienestar y tecnología. Colaboraciones con marcas."><meta name="theme-color" content="#FBF8F1">
-<style>
-@font-face{font-family:'Inter';font-weight:400 600;font-display:swap;src:url(assets/fonts/inter-normal.woff2) format('woff2')}
+<title>Stephany Dianderas · Creadora UGC en Dubái · Videos para marcas</title><meta name="description" content="Stephany Dianderas, creadora UGC en Dubái. Videos verticales en español e inglés para marcas: belleza, viajes, bienestar y tecnología. Servicios, tarifas por cotización y contacto.">
+<meta property="og:title" content="Stephany Dianderas · Creadora UGC en Dubái · Videos para marcas"><meta property="og:description" content="Stephany Dianderas, creadora UGC en Dubái. Videos verticales en español e inglés para marcas: belleza, viajes, bienestar y tecnología. Servicios, tarifas por cotización y contacto."><meta property="og:type" content="website"><meta name="theme-color" content="#FBF8F1">
+<style>@font-face{font-family:'Inter';font-weight:400 600;font-display:swap;src:url(assets/fonts/inter-normal.woff2) format('woff2')}
 @font-face{font-family:'Montserrat';font-weight:500 800;font-display:swap;src:url(assets/fonts/montserrat-normal.woff2) format('woff2')}
 @font-face{font-family:'Kalam';font-weight:700;font-display:swap;src:url(assets/fonts/kalam-normal.woff2) format('woff2')}
 :root{--paper:#FBF8F1;--ink:#1B1B1B;--muted:#5d5950;--royal:#1F3FA0;--sand:#E9DECB;--cream:#F5EFE3;--terra:#915338;--line:rgba(27,27,27,.14)}
-*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{font:400 17px/1.6 Inter,Arial,sans-serif;background:var(--paper);color:var(--ink)}
-a{color:inherit}.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px;z-index:9}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font:800 15px Montserrat,sans-serif;letter-spacing:.12em;text-decoration:none;color:var(--royal)}
-.lang{font:600 13px Montserrat,sans-serif;border:1.5px solid var(--royal);color:var(--royal);padding:6px 14px;border-radius:99px;text-decoration:none}
-.hero{padding:56px 0 64px}.kick{font:700 13px Montserrat,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
-h1{font:800 clamp(40px,9vw,84px)/1.02 Montserrat,sans-serif;margin:14px 0 18px;color:var(--ink)}
+a{color:inherit}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px;z-index:30}
+.top{position:sticky;top:0;z-index:20;background:rgba(251,248,241,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:18px;height:60px}
+.logo{font:800 16px Montserrat,sans-serif;letter-spacing:.12em;text-decoration:none;color:var(--royal)}
+nav{display:flex;gap:18px;flex:1;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav a{font:600 13px Montserrat,sans-serif;text-decoration:none;white-space:nowrap;color:var(--muted)}nav a:hover{color:var(--royal)}
+.lang{font:600 13px Montserrat,sans-serif;border:1.5px solid var(--royal);color:var(--royal);padding:5px 13px;border-radius:99px;text-decoration:none}
+.hero{padding:64px 0 72px}.hg{display:grid;gap:40px;grid-template-columns:1fr;align-items:center}
+@media(min-width:860px){.hg{grid-template-columns:1.5fr 1fr}}
+.kick,.tag{font:700 12px Montserrat,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
+h1{font:800 clamp(40px,8vw,76px)/1.03 Montserrat,sans-serif;margin:14px 0 18px}
 h1 em{font:700 1em Kalam,cursive;color:var(--royal);font-style:normal}
-.lead{font-size:clamp(18px,2.6vw,22px);max-width:640px;color:var(--muted)}
-.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{font:700 15px Montserrat,sans-serif;padding:14px 24px;border-radius:99px;text-decoration:none;display:inline-block}
-.p{background:var(--royal);color:#fff}.s{border:1.5px solid var(--ink)}
-section{padding:56px 0;border-top:1px solid var(--line)}
-h2{font:800 clamp(26px,5vw,38px) Montserrat,sans-serif;margin-bottom:26px}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.card{background:var(--cream);border-radius:16px;padding:22px}.card h3{font:700 17px Montserrat,sans-serif;margin-bottom:6px;color:var(--royal)}.card p{font-size:15.5px;color:var(--muted)}
-.band{background:var(--sand)}
-.num{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}
-.num .card{flex:1 1 260px}.num b{display:block;font:800 22px Montserrat,sans-serif;margin:4px 0 12px}
-.num .btn{padding:10px 18px;font-size:14px;margin:0 6px 6px 0}
-h3.soc{font:700 15px Montserrat,sans-serif;margin:28px 0 0;color:var(--terra);letter-spacing:.12em;text-transform:uppercase}
-footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+.lead{font-size:clamp(18px,2.4vw,21px);max-width:620px;color:var(--muted)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{font:700 15px Montserrat,sans-serif;padding:13px 22px;border-radius:99px;text-decoration:none;display:inline-block;margin:0 6px 6px 0}
+.p{background:var(--royal);color:#fff}.s{border:1.5px solid var(--ink)}.btn:hover{opacity:.88}
+.chips{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;padding:0}
+.chips li{font:600 13px Montserrat,sans-serif;background:var(--cream);border-radius:99px;padding:7px 14px}
+.mono{aspect-ratio:1;max-width:340px;width:100%;margin:0 auto;border-radius:50%;background:var(--royal);display:grid;place-items:center;box-shadow:14px 14px 0 var(--sand)}
+.mono span{font:700 clamp(80px,14vw,130px) Kalam,cursive;color:var(--paper)}
+section{padding:64px 0;border-top:1px solid var(--line)}.band{background:var(--cream)}
+h2{font:800 clamp(28px,5vw,40px)/1.15 Montserrat,sans-serif;margin-bottom:18px}
+.sub{font:800 22px Montserrat,sans-serif;margin:44px 0 16px}
+.lead2{color:var(--muted);max-width:680px;margin-bottom:26px}
+.two{display:grid;gap:36px}@media(min-width:860px){.two{grid-template-columns:1.4fr 1fr}}
+.two p{margin-bottom:14px;max-width:620px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-content:start}
+.facts div{background:var(--cream);border-radius:16px;padding:18px;text-align:center}
+.facts b{display:block;font:800 30px Montserrat,sans-serif;color:var(--royal)}.facts span{font-size:13px;color:var(--muted)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px}.band .card{background:#fff}
+.card h3{font:700 18px Montserrat,sans-serif;margin:6px 0 8px;color:var(--royal)}.card p{font-size:15.5px;color:var(--muted);margin-bottom:12px}
+.n{font:700 22px Kalam,cursive;color:var(--terra)}
+.proc{list-style:none;padding:0;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));counter-reset:s}
+.proc li{counter-increment:s;border-top:3px solid var(--royal);padding-top:12px}.proc li:before{content:counter(s,decimal-leading-zero);font:700 20px Kalam,cursive;color:var(--terra);display:block}
+.proc b{display:block;font:700 17px Montserrat,sans-serif}.proc span{color:var(--muted);font-size:15.5px}
+.note{margin-top:22px;max-width:700px;font-size:15.5px;color:var(--muted)}
+.qs{padding-left:22px}.qs li{margin:10px 0;font-weight:500}
+.soon{background:var(--sand);border:0;align-self:start}.soon p{color:var(--ink);margin:0}
+.big{display:block;font:800 22px Montserrat,sans-serif;margin:6px 0 14px}.big.sm{font-size:16px;word-break:break-all}
+footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}footer p{margin:4px 0}
 a:focus-visible{outline:3px solid var(--royal);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style></head><body>
 <a class="skip" href="#main">Ir al contenido</a>
-<div class="wrap"><header><a class="logo" href="#">SD</a><a class="lang" href="en/" hreflang="en">English</a></header></div>
-<main id="main"><div class="wrap"><div class="hero"><p class="kick">Creadora de contenido UGC · Dubái</p><h1>Stephany <em>Dianderas</em></h1><p class="lead">Videos verticales claros y honestos para marcas, en español e inglés. Belleza, viajes, bienestar y tecnología con una mirada cercana.</p>
-<div class="btns"><a class="btn p" href="https://wa.me/971586990835">Escríbeme por WhatsApp</a><a class="btn s" href="#crear">Ver qué creo</a></div></div></div>
-<section id="crear"><div class="wrap"><h2>Qué creo</h2><div class="grid"><div class="card"><h3>Belleza</h3><p>Rutinas, ingredientes y criterio de compra, sin promesas de resultados.</p></div><div class="card"><h3>Lifestyle y viajes</h3><p>Planes, checklists y escapadas pensadas con criterio.</p></div><div class="card"><h3>Fitness y bienestar</h3><p>Ejemplos de tiempos y pausas suaves, sin rutinas médicas.</p></div><div class="card"><h3>Tech e IA</h3><p>Cómo usar la IA con método y con prudencia.</p></div><div class="card"><h3>Personal</h3><p>Mi día a día, mi forma de pensar y de organizarme.</p></div></div></div></section>
-<section class="band"><div class="wrap"><h2>Cómo trabajo</h2><div class="grid"><div class="card"><h3>Formato</h3><p>Videos verticales 9:16 para Instagram Reels y TikTok, en español, inglés o ambos.</p></div><div class="card"><h3>Transparencia</h3><p>Si un producto es regalo, colaboración o patrocinio, se dice en el video y en el caption.</p></div><div class="card"><h3>Sin exageraciones</h3><p>Muestro lo que se ve. No prometo resultados ni invento reseñas.</p></div><div class="card"><h3>Proceso</h3><p>Guion previo para tu aprobación antes de grabar.</p></div></div></div></section>
-<section id="contacto"><div class="wrap"><h2>Colaboremos</h2><p class="lead">¿Eres una marca y quieres contenido así? Escríbeme por WhatsApp.</p><div class="num">
-<div class="card"><span class="kick">Dubái</span><b>+971 58 699 0835</b><a class="btn p" href="https://wa.me/971586990835">WhatsApp</a><a class="btn s" href="tel:+971586990835">Llamar</a></div>
-<div class="card"><span class="kick">Perú</span><b>+51 912 876 115</b><a class="btn p" href="https://wa.me/51912876115">WhatsApp</a><a class="btn s" href="tel:+51912876115">Llamar</a></div>
-</div><h3 class="soc">Sígueme</h3><div class="btns"><a class="btn s" href="https://www.instagram.com/sdianderas/" rel="noopener">Instagram @sdianderas</a><a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener">TikTok @diandesteph</a></div></div></section></main>
-<footer><div class="wrap">© 2026 Stephany Dianderas · Contenido creado por Stephany Dianderas.</div></footer>
-</body></html>
+<header class="top"><div class="wrap bar"><a class="logo" href="#">SD</a><nav aria-label="Principal"><a href="#sobre">Sobre mí</a><a href="#servicios">Servicios</a><a href="#contenido">Contenido</a><a href="#tarifas">Tarifas</a><a href="#beauty">Beauty</a><a href="#ia">Cursos IA</a><a href="#contacto">Contacto</a></nav><a class="lang" href="en/" hreflang="en">English</a></div></header>
+<main id="main">
+<section class="hero"><div class="wrap hg"><div><p class="kick">Creadora UGC · Dubái · ES / EN</p><h1>Videos que se sienten <em>reales</em></h1><p class="lead">Contenido UGC claro y honesto para marcas que quieren hablarle a audiencias hispanas y angloparlantes. Belleza, viajes, bienestar y tecnología.</p>
+<div class="btns"><a class="btn p" href="https://wa.me/971586990835?text=Hola%20Stephany%2C%20quiero%20cotizar%20contenido%20UGC.">Cotizar por WhatsApp</a><a class="btn s" href="mailto:sdianderasugc@gmail.com?subject=Cotizaci%C3%B3n%20UGC">Escribir por correo</a></div><ul class="chips"><li>Español e inglés</li><li>Reels y TikTok 9:16</li><li>Guion previo para tu aprobación</li><li>Con base en Dubái</li></ul></div>
+<div class="mono" aria-hidden="true"><span>SD</span></div></div></section>
+<section id="sobre"><div class="wrap two"><div><h2>Sobre mí</h2><p>Soy Stephany Dianderas, creadora de contenido UGC con base en Dubái. Creo videos verticales en español e inglés para marcas que valoran la claridad y la transparencia.</p><p>Mi forma de trabajar es simple: muestro lo que se ve, explico con criterio y aviso cuando un producto es regalo, colaboración o patrocinio. No prometo resultados ni invento reseñas.</p></div><div class="facts"><div><b>2</b><span>idiomas de trabajo</span></div><div><b>5</b><span>pilares de contenido</span></div><div><b>9:16</b><span>formato vertical</span></div></div></div></section>
+<section id="servicios" class="band"><div class="wrap"><h2>Servicios</h2><div class="grid"><article class="card"><span class="n">01</span><h3>Video UGC para tu marca</h3><p>Videos pensados para tus anuncios y tus redes, entregados para que tú los publiques. No tengo que publicarlos en mis perfiles.</p></article><article class="card"><span class="n">02</span><h3>Publicación en mis perfiles</h3><p>Contenido publicado en mis cuentas de Instagram y TikTok, con la divulgación comercial que corresponda.</p></article><article class="card"><span class="n">03</span><h3>Demos de producto</h3><p>Primera impresión visual de empaque, textura y uso, sin reseñas ni promesas de resultados.</p></article><article class="card"><span class="n">04</span><h3>Guiones bilingües</h3><p>Versión en español y en inglés del mismo mensaje, adaptada al tono de cada audiencia.</p></article></div><h3 class="sub">Cómo trabajamos</h3><ol class="proc"><li><b>Brief</b><span>Me cuentas producto, público y objetivo.</span></li><li><b>Guion</b><span>Te envío el guion para tu aprobación antes de grabar.</span></li><li><b>Grabación</b><span>Grabo en formato vertical, con luz natural y encuadres claros.</span></li><li><b>Entrega</b><span>Recibes los videos listos para usar y los ajustamos contigo.</span></li></ol></div></section>
+<section id="contenido"><div class="wrap"><h2>Contenido</h2><p class="lead2">Cinco líneas de contenido que creo. Mira cómo lo hago en mis redes.</p><div class="grid"><article class="card"><h3>Beauty</h3><p>Cómo leer una etiqueta, preguntas antes de comprar, señales de una reseña honesta.</p></article><article class="card"><h3>Lifestyle y viajes</h3><p>Checklists, cómo elegir destino, planear un día en Dubái según el sol.</p></article><article class="card"><h3>Fitness y bienestar</h3><p>Ejemplos de reparto de tiempo y pausas suaves de escritorio.</p></article><article class="card"><h3>Tech e IA</h3><p>Prompts útiles, cómo cuestionar una idea con IA, qué no compartir en un chat.</p></article><article class="card"><h3>Personal</h3><p>Mi forma de organizarme y de pensar el día.</p></article></div><div class="btns"><a class="btn p" href="https://www.instagram.com/sdianderas/" rel="noopener" target="_blank">Ver en Instagram</a><a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener" target="_blank">Ver en TikTok</a></div></div></section>
+<section id="tarifas" class="band"><div class="wrap"><h2>Tarifas</h2><p class="lead2">Cada proyecto es distinto, así que cotizo según el brief. Estos son los puntos que definen el precio:</p><div class="grid"><article class="card"><h3>Video UGC individual</h3><p>1 video vertical, 1 idioma. Precio según duración y uso.</p><span class="tag">Cotización</span></article><article class="card"><h3>Paquete de videos</h3><p>Varias piezas, idiomas combinados. Precio según cantidad.</p><span class="tag">Cotización</span></article><article class="card"><h3>Publicación en mis perfiles</h3><p>Incluye publicación y divulgación comercial. Precio según formato.</p><span class="tag">Cotización</span></article></div><p class="note">Define el precio: duración, cantidad de piezas, idiomas, derechos de uso (orgánico o anuncios) y plazo de entrega. Envíame tu brief y te respondo con una cotización.</p><div class="btns"><a class="btn p" href="https://wa.me/971586990835?text=Hola%20Stephany%2C%20quiero%20cotizar%20contenido%20UGC.">Pedir cotización</a></div></div></section>
+<section id="beauty"><div class="wrap two"><div><h2>Beauty: mi criterio de compra</h2><p class="lead2">Antes de recomendarte un producto, lo paso por mis tres preguntas.</p><ol class="qs"><li>¿Qué necesidad concreta cubre?</li><li>¿Ya tengo algo en casa que haga lo mismo?</li><li>¿Sé qué lleva y cómo se usa?</li></ol></div><div class="card soon"><p>Pronto: mi selección de belleza con enlaces de compra. Si un enlace es de afiliado, lo indicaré claramente.</p></div></div></section>
+<section id="ia" class="band"><div class="wrap"><h2>Cursos de IA para creadoras UGC</h2><p class="lead2">Una selección para usar la IA con método: ideas, guiones y contenido. Revisa precios y condiciones en cada plataforma.</p><div class="grid g2"><article class="card"><span class="tag">DeepLearning.AI · Andrew Ng</span><h3>AI For Everyone</h3><p>Introducción a la IA sin necesidad de programar: unas 7 horas en 4 módulos. En inglés, con subtítulos en 27 idiomas.</p><a class="btn s" href="https://www.coursera.org/learn/ai-for-everyone" rel="noopener" target="_blank">Ver curso</a></article><article class="card"><span class="tag">Google</span><h3>Google AI Professional Certificate</h3><p>Ocho cursos de una hora. Incluye "AI for Content Creation" para crear imágenes, videos y presentaciones. Disponible en español. Es de suscripción: revisa el precio.</p><a class="btn s" href="https://grow.google/prompting-essentials" rel="noopener" target="_blank">Ver curso</a></article></div></div></section>
+<section id="comunidad"><div class="wrap two"><div><h2>Comunidad</h2><p class="lead2">Estoy preparando un espacio para creadoras UGC (WhatsApp o Telegram). Escríbeme y te aviso cuando abra.</p></div><div><a class="btn p" href="https://wa.me/971586990835?text=Hola%20Stephany%2C%20quiero%20que%20me%20avises%20cuando%20abras%20la%20comunidad%20de%20creadoras%20UGC.">Avísame cuando abra</a></div></div></section>
+<section id="contacto" class="band"><div class="wrap"><h2>Contacto</h2><p class="lead2">¿Eres una marca o agencia? Cuéntame tu proyecto.</p><div class="grid">
+<div class="card"><span class="tag">Correo</span><b class="big sm">sdianderasugc@gmail.com</b><a class="btn p" href="mailto:sdianderasugc@gmail.com?subject=Cotizaci%C3%B3n%20UGC">Escribir por correo</a></div>
+<div class="card"><span class="tag">Dubái</span><b class="big">+971 58 699 0835</b><a class="btn p" href="https://wa.me/971586990835?text=Hola%20Stephany%2C%20quiero%20cotizar%20contenido%20UGC.">WhatsApp</a> <a class="btn s" href="tel:+971586990835">Llamar</a></div><div class="card"><span class="tag">Perú</span><b class="big">+51 912 876 115</b><a class="btn p" href="https://wa.me/51912876115?text=Hola%20Stephany%2C%20quiero%20cotizar%20contenido%20UGC.">WhatsApp</a> <a class="btn s" href="tel:+51912876115">Llamar</a></div>
+<div class="card"><span class="tag">Redes</span><b class="big sm">Instagram · TikTok</b><a class="btn s" href="https://www.instagram.com/sdianderas/" rel="noopener" target="_blank">@sdianderas</a> <a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener" target="_blank">@diandesteph</a></div>
+</div></div></section></main>
+<footer><div class="wrap"><p>Transparencia: indico cuando un contenido es regalo, colaboración, patrocinio o enlace de afiliado.</p><p>© 2026 Stephany Dianderas</p></div></footer></body></html>
