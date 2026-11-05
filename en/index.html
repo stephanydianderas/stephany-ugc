@@ -1,48 +1,74 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stephany Dianderas · UGC content creator in Dubai</title><meta name="description" content="Stephany Dianderas, UGC content creator in Dubai. Vertical videos in Spanish and English about beauty, travel, wellness and tech. Brand collaborations.">
-<meta property="og:title" content="Stephany Dianderas · UGC content creator in Dubai"><meta property="og:description" content="Stephany Dianderas, UGC content creator in Dubai. Vertical videos in Spanish and English about beauty, travel, wellness and tech. Brand collaborations."><meta name="theme-color" content="#FBF8F1">
-<style>
-@font-face{font-family:'Inter';font-weight:400 600;font-display:swap;src:url(../assets/fonts/inter-normal.woff2) format('woff2')}
+<title>Stephany Dianderas · UGC creator in Dubai · Videos for brands</title><meta name="description" content="Stephany Dianderas, UGC creator in Dubai. Vertical videos in Spanish and English for brands: beauty, travel, wellness and tech. Services, quote-based rates and contact.">
+<meta property="og:title" content="Stephany Dianderas · UGC creator in Dubai · Videos for brands"><meta property="og:description" content="Stephany Dianderas, UGC creator in Dubai. Vertical videos in Spanish and English for brands: beauty, travel, wellness and tech. Services, quote-based rates and contact."><meta property="og:type" content="website"><meta name="theme-color" content="#FBF8F1">
+<style>@font-face{font-family:'Inter';font-weight:400 600;font-display:swap;src:url(../assets/fonts/inter-normal.woff2) format('woff2')}
 @font-face{font-family:'Montserrat';font-weight:500 800;font-display:swap;src:url(../assets/fonts/montserrat-normal.woff2) format('woff2')}
 @font-face{font-family:'Kalam';font-weight:700;font-display:swap;src:url(../assets/fonts/kalam-normal.woff2) format('woff2')}
 :root{--paper:#FBF8F1;--ink:#1B1B1B;--muted:#5d5950;--royal:#1F3FA0;--sand:#E9DECB;--cream:#F5EFE3;--terra:#915338;--line:rgba(27,27,27,.14)}
-*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{font:400 17px/1.6 Inter,Arial,sans-serif;background:var(--paper);color:var(--ink)}
-a{color:inherit}.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px;z-index:9}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font:800 15px Montserrat,sans-serif;letter-spacing:.12em;text-decoration:none;color:var(--royal)}
-.lang{font:600 13px Montserrat,sans-serif;border:1.5px solid var(--royal);color:var(--royal);padding:6px 14px;border-radius:99px;text-decoration:none}
-.hero{padding:56px 0 64px}.kick{font:700 13px Montserrat,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
-h1{font:800 clamp(40px,9vw,84px)/1.02 Montserrat,sans-serif;margin:14px 0 18px;color:var(--ink)}
+a{color:inherit}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px;z-index:30}
+.top{position:sticky;top:0;z-index:20;background:rgba(251,248,241,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:18px;height:60px}
+.logo{font:800 16px Montserrat,sans-serif;letter-spacing:.12em;text-decoration:none;color:var(--royal)}
+nav{display:flex;gap:18px;flex:1;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav a{font:600 13px Montserrat,sans-serif;text-decoration:none;white-space:nowrap;color:var(--muted)}nav a:hover{color:var(--royal)}
+.lang{font:600 13px Montserrat,sans-serif;border:1.5px solid var(--royal);color:var(--royal);padding:5px 13px;border-radius:99px;text-decoration:none}
+.hero{padding:64px 0 72px}.hg{display:grid;gap:40px;grid-template-columns:1fr;align-items:center}
+@media(min-width:860px){.hg{grid-template-columns:1.5fr 1fr}}
+.kick,.tag{font:700 12px Montserrat,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
+h1{font:800 clamp(40px,8vw,76px)/1.03 Montserrat,sans-serif;margin:14px 0 18px}
 h1 em{font:700 1em Kalam,cursive;color:var(--royal);font-style:normal}
-.lead{font-size:clamp(18px,2.6vw,22px);max-width:640px;color:var(--muted)}
-.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{font:700 15px Montserrat,sans-serif;padding:14px 24px;border-radius:99px;text-decoration:none;display:inline-block}
-.p{background:var(--royal);color:#fff}.s{border:1.5px solid var(--ink)}
-section{padding:56px 0;border-top:1px solid var(--line)}
-h2{font:800 clamp(26px,5vw,38px) Montserrat,sans-serif;margin-bottom:26px}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.card{background:var(--cream);border-radius:16px;padding:22px}.card h3{font:700 17px Montserrat,sans-serif;margin-bottom:6px;color:var(--royal)}.card p{font-size:15.5px;color:var(--muted)}
-.band{background:var(--sand)}
-.num{display:flex;flex-wrap:wrap;gap:16px;margin-top:18px}
-.num .card{flex:1 1 260px}.num b{display:block;font:800 22px Montserrat,sans-serif;margin:4px 0 12px}
-.num .btn{padding:10px 18px;font-size:14px;margin:0 6px 6px 0}
-h3.soc{font:700 15px Montserrat,sans-serif;margin:28px 0 0;color:var(--terra);letter-spacing:.12em;text-transform:uppercase}
-footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+.lead{font-size:clamp(18px,2.4vw,21px);max-width:620px;color:var(--muted)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{font:700 15px Montserrat,sans-serif;padding:13px 22px;border-radius:99px;text-decoration:none;display:inline-block;margin:0 6px 6px 0}
+.p{background:var(--royal);color:#fff}.s{border:1.5px solid var(--ink)}.btn:hover{opacity:.88}
+.chips{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;padding:0}
+.chips li{font:600 13px Montserrat,sans-serif;background:var(--cream);border-radius:99px;padding:7px 14px}
+.mono{aspect-ratio:1;max-width:340px;width:100%;margin:0 auto;border-radius:50%;background:var(--royal);display:grid;place-items:center;box-shadow:14px 14px 0 var(--sand)}
+.mono span{font:700 clamp(80px,14vw,130px) Kalam,cursive;color:var(--paper)}
+section{padding:64px 0;border-top:1px solid var(--line)}.band{background:var(--cream)}
+h2{font:800 clamp(28px,5vw,40px)/1.15 Montserrat,sans-serif;margin-bottom:18px}
+.sub{font:800 22px Montserrat,sans-serif;margin:44px 0 16px}
+.lead2{color:var(--muted);max-width:680px;margin-bottom:26px}
+.two{display:grid;gap:36px}@media(min-width:860px){.two{grid-template-columns:1.4fr 1fr}}
+.two p{margin-bottom:14px;max-width:620px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-content:start}
+.facts div{background:var(--cream);border-radius:16px;padding:18px;text-align:center}
+.facts b{display:block;font:800 30px Montserrat,sans-serif;color:var(--royal)}.facts span{font-size:13px;color:var(--muted)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px}.band .card{background:#fff}
+.card h3{font:700 18px Montserrat,sans-serif;margin:6px 0 8px;color:var(--royal)}.card p{font-size:15.5px;color:var(--muted);margin-bottom:12px}
+.n{font:700 22px Kalam,cursive;color:var(--terra)}
+.proc{list-style:none;padding:0;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));counter-reset:s}
+.proc li{counter-increment:s;border-top:3px solid var(--royal);padding-top:12px}.proc li:before{content:counter(s,decimal-leading-zero);font:700 20px Kalam,cursive;color:var(--terra);display:block}
+.proc b{display:block;font:700 17px Montserrat,sans-serif}.proc span{color:var(--muted);font-size:15.5px}
+.note{margin-top:22px;max-width:700px;font-size:15.5px;color:var(--muted)}
+.qs{padding-left:22px}.qs li{margin:10px 0;font-weight:500}
+.soon{background:var(--sand);border:0;align-self:start}.soon p{color:var(--ink);margin:0}
+.big{display:block;font:800 22px Montserrat,sans-serif;margin:6px 0 14px}.big.sm{font-size:16px;word-break:break-all}
+footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}footer p{margin:4px 0}
 a:focus-visible{outline:3px solid var(--royal);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style></head><body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="wrap"><header><a class="logo" href="#">SD</a><a class="lang" href="../" hreflang="es">Español</a></header></div>
-<main id="main"><div class="wrap"><div class="hero"><p class="kick">UGC content creator · Dubai</p><h1>Stephany <em>Dianderas</em></h1><p class="lead">Clear, honest vertical videos for brands, in Spanish and English. Beauty, travel, wellness and tech with a close-up point of view.</p>
-<div class="btns"><a class="btn p" href="https://wa.me/971586990835">Message me on WhatsApp</a><a class="btn s" href="#crear">See what I create</a></div></div></div>
-<section id="crear"><div class="wrap"><h2>What I create</h2><div class="grid"><div class="card"><h3>Beauty</h3><p>Routines, ingredients and buying criteria, with no promises of results.</p></div><div class="card"><h3>Lifestyle & travel</h3><p>Plans, checklists and getaways chosen with intention.</p></div><div class="card"><h3>Fitness & wellness</h3><p>Examples of timing and gentle breaks, not medical routines.</p></div><div class="card"><h3>Tech & AI</h3><p>How to use AI with method and caution.</p></div><div class="card"><h3>Personal</h3><p>My day to day, how I think and how I organize myself.</p></div></div></div></section>
-<section class="band"><div class="wrap"><h2>How I work</h2><div class="grid"><div class="card"><h3>Format</h3><p>Vertical 9:16 videos for Instagram Reels and TikTok, in Spanish, English or both.</p></div><div class="card"><h3>Transparency</h3><p>If a product is a gift, collaboration or sponsorship, it is stated in the video and the caption.</p></div><div class="card"><h3>No exaggeration</h3><p>I show what can be seen. I do not promise results or invent reviews.</p></div><div class="card"><h3>Process</h3><p>A script for your approval before I film.</p></div></div></div></section>
-<section id="contacto"><div class="wrap"><h2>Let's collaborate</h2><p class="lead">Are you a brand and want content like this? Message me on WhatsApp.</p><div class="num">
-<div class="card"><span class="kick">Dubai</span><b>+971 58 699 0835</b><a class="btn p" href="https://wa.me/971586990835">WhatsApp</a><a class="btn s" href="tel:+971586990835">Call</a></div>
-<div class="card"><span class="kick">Peru</span><b>+51 912 876 115</b><a class="btn p" href="https://wa.me/51912876115">WhatsApp</a><a class="btn s" href="tel:+51912876115">Call</a></div>
-</div><h3 class="soc">Follow me</h3><div class="btns"><a class="btn s" href="https://www.instagram.com/sdianderas/" rel="noopener">Instagram @sdianderas</a><a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener">TikTok @diandesteph</a></div></div></section></main>
-<footer><div class="wrap">© 2026 Stephany Dianderas · Content created by Stephany Dianderas.</div></footer>
-</body></html>
+<header class="top"><div class="wrap bar"><a class="logo" href="#">SD</a><nav aria-label="Principal"><a href="#sobre">About</a><a href="#servicios">Services</a><a href="#contenido">Content</a><a href="#tarifas">Rates</a><a href="#beauty">Beauty</a><a href="#ia">AI courses</a><a href="#contacto">Contact</a></nav><a class="lang" href="../" hreflang="es">Español</a></div></header>
+<main id="main">
+<section class="hero"><div class="wrap hg"><div><p class="kick">UGC creator · Dubai · ES / EN</p><h1>Videos that feel <em>real</em></h1><p class="lead">Clear, honest UGC for brands that want to reach Spanish and English-speaking audiences. Beauty, travel, wellness and tech.</p>
+<div class="btns"><a class="btn p" href="https://wa.me/971586990835?text=Hi%20Stephany%2C%20I%20would%20like%20a%20quote%20for%20UGC%20content.">Get a quote on WhatsApp</a><a class="btn s" href="mailto:sdianderasugc@gmail.com?subject=UGC%20quote">Email me</a></div><ul class="chips"><li>Spanish and English</li><li>Reels and TikTok 9:16</li><li>Script for your approval first</li><li>Based in Dubai</li></ul></div>
+<div class="mono" aria-hidden="true"><span>SD</span></div></div></section>
+<section id="sobre"><div class="wrap two"><div><h2>About me</h2><p>I am Stephany Dianderas, a UGC content creator based in Dubai. I make vertical videos in Spanish and English for brands that value clarity and transparency.</p><p>My way of working is simple: I show what can be seen, explain with judgment, and say when a product is a gift, collaboration or sponsorship. I do not promise results or invent reviews.</p></div><div class="facts"><div><b>2</b><span>working languages</span></div><div><b>5</b><span>content pillars</span></div><div><b>9:16</b><span>vertical format</span></div></div></div></section>
+<section id="servicios" class="band"><div class="wrap"><h2>Services</h2><div class="grid"><article class="card"><span class="n">01</span><h3>UGC video for your brand</h3><p>Videos made for your ads and social channels, delivered for you to publish. I do not have to post them on my profiles.</p></article><article class="card"><span class="n">02</span><h3>Posting on my profiles</h3><p>Content published on my Instagram and TikTok, with the commercial disclosure that applies.</p></article><article class="card"><span class="n">03</span><h3>Product demos</h3><p>A visual first impression of packaging, texture and use, with no reviews or promises of results.</p></article><article class="card"><span class="n">04</span><h3>Bilingual scripts</h3><p>Spanish and English versions of the same message, adapted to each audience.</p></article></div><h3 class="sub">How we work</h3><ol class="proc"><li><b>Brief</b><span>You tell me the product, audience and goal.</span></li><li><b>Script</b><span>I send you the script for approval before filming.</span></li><li><b>Filming</b><span>I film vertically, in natural light, with clear framing.</span></li><li><b>Delivery</b><span>You get videos ready to use, and we adjust them together.</span></li></ol></div></section>
+<section id="contenido"><div class="wrap"><h2>Content</h2><p class="lead2">Five content lines I create. See how I do it on my socials.</p><div class="grid"><article class="card"><h3>Beauty</h3><p>How to read a label, questions before buying, signs of an honest review.</p></article><article class="card"><h3>Lifestyle & travel</h3><p>Checklists, how to choose a destination, planning a day in Dubai around the sun.</p></article><article class="card"><h3>Fitness & wellness</h3><p>Examples of splitting your time and gentle desk breaks.</p></article><article class="card"><h3>Tech & AI</h3><p>Useful prompts, how to challenge an idea with AI, what not to share in a chat.</p></article><article class="card"><h3>Personal</h3><p>How I organize myself and think through my day.</p></article></div><div class="btns"><a class="btn p" href="https://www.instagram.com/sdianderas/" rel="noopener" target="_blank">View on Instagram</a><a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener" target="_blank">View on TikTok</a></div></div></section>
+<section id="tarifas" class="band"><div class="wrap"><h2>Rates</h2><p class="lead2">Every project is different, so I quote based on the brief. These are the points that set the price:</p><div class="grid"><article class="card"><h3>Single UGC video</h3><p>1 vertical video, 1 language. Price depends on length and usage.</p><span class="tag">Quote</span></article><article class="card"><h3>Video package</h3><p>Several pieces, languages combined. Price depends on quantity.</p><span class="tag">Quote</span></article><article class="card"><h3>Posting on my profiles</h3><p>Includes posting and commercial disclosure. Price depends on format.</p><span class="tag">Quote</span></article></div><p class="note">What sets the price: length, number of pieces, languages, usage rights (organic or ads) and delivery time. Send me your brief and I will reply with a quote.</p><div class="btns"><a class="btn p" href="https://wa.me/971586990835?text=Hi%20Stephany%2C%20I%20would%20like%20a%20quote%20for%20UGC%20content.">Request a quote</a></div></div></section>
+<section id="beauty"><div class="wrap two"><div><h2>Beauty: my buying criteria</h2><p class="lead2">Before I recommend a product, I run it through my three questions.</p><ol class="qs"><li>What specific need does it cover?</li><li>Do I already have something at home that does the same?</li><li>Do I know what is in it and how to use it?</li></ol></div><div class="card soon"><p>Coming soon: my beauty picks with shopping links. If a link is an affiliate link, I will say so clearly.</p></div></div></section>
+<section id="ia" class="band"><div class="wrap"><h2>AI courses for UGC creators</h2><p class="lead2">A selection to use AI with method: ideas, scripts and content. Check prices and terms on each platform.</p><div class="grid g2"><article class="card"><span class="tag">DeepLearning.AI · Andrew Ng</span><h3>AI For Everyone</h3><p>A no-code introduction to AI: about 7 hours across 4 modules. In English, with subtitles in 27 languages.</p><a class="btn s" href="https://www.coursera.org/learn/ai-for-everyone" rel="noopener" target="_blank">View course</a></article><article class="card"><span class="tag">Google</span><h3>Google AI Professional Certificate</h3><p>Eight one-hour courses. Includes "AI for Content Creation" for making images, videos and presentations. Available in Spanish. It is a subscription: check the price.</p><a class="btn s" href="https://grow.google/prompting-essentials" rel="noopener" target="_blank">View course</a></article></div></div></section>
+<section id="comunidad"><div class="wrap two"><div><h2>Community</h2><p class="lead2">I am preparing a space for UGC creators (WhatsApp or Telegram). Message me and I will let you know when it opens.</p></div><div><a class="btn p" href="https://wa.me/971586990835?text=Hi%20Stephany%2C%20please%20let%20me%20know%20when%20you%20open%20the%20UGC%20creators%20community.">Notify me when it opens</a></div></div></section>
+<section id="contacto" class="band"><div class="wrap"><h2>Contact</h2><p class="lead2">Are you a brand or agency? Tell me about your project.</p><div class="grid">
+<div class="card"><span class="tag">Email</span><b class="big sm">sdianderasugc@gmail.com</b><a class="btn p" href="mailto:sdianderasugc@gmail.com?subject=UGC%20quote">Email me</a></div>
+<div class="card"><span class="tag">Dubai</span><b class="big">+971 58 699 0835</b><a class="btn p" href="https://wa.me/971586990835?text=Hi%20Stephany%2C%20I%20would%20like%20a%20quote%20for%20UGC%20content.">WhatsApp</a> <a class="btn s" href="tel:+971586990835">Call</a></div><div class="card"><span class="tag">Peru</span><b class="big">+51 912 876 115</b><a class="btn p" href="https://wa.me/51912876115?text=Hi%20Stephany%2C%20I%20would%20like%20a%20quote%20for%20UGC%20content.">WhatsApp</a> <a class="btn s" href="tel:+51912876115">Call</a></div>
+<div class="card"><span class="tag">Socials</span><b class="big sm">Instagram · TikTok</b><a class="btn s" href="https://www.instagram.com/sdianderas/" rel="noopener" target="_blank">@sdianderas</a> <a class="btn s" href="https://www.tiktok.com/@diandesteph" rel="noopener" target="_blank">@diandesteph</a></div>
+</div></div></section></main>
+<footer><div class="wrap"><p>Transparency: I state when content is a gift, collaboration, sponsorship or an affiliate link.</p><p>© 2026 Stephany Dianderas</p></div></footer></body></html>
